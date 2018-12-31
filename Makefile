@@ -1,0 +1,2 @@
+ejecutar:
+	jekyll serve --baseurl ''
