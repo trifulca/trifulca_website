@@ -9,8 +9,6 @@ navigation:
     url: /que-es-esto
   - name: Archivo
     url: /archive
-  - name: Etiquetas
-    url: /tags
 
 # Pagination
 paginate: 5

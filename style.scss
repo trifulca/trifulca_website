@@ -267,16 +267,6 @@ img {
   max-width: none;
 }
 
-// Specify the color of the selection
-::-moz-selection {
-  color: $selection-color;
-  background: $selection-background-color;
-}
-::selection {
-  color: $selection-color;
-  background: $selection-background-color;
-}
-
 // Nicolas Gallagher's micro clearfix hack
 // http://nicolasgallagher.com/micro-clearfix-hack/
 .clearfix:before,
