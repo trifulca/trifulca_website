@@ -2,14 +2,11 @@ name: Trifulca
 description: ¡Que marusa!
 avatar: https://avatars1.githubusercontent.com/u/42070935?s=200&v=4
 
-# Tabs in header. There are 'Blog', 'About', 'Archive', 'Tags'
-# and URL Link(e.g. 'Theme' tab below) tabs. If you don't need one, just delete
-# it from the list(Delete '- name: ' and 'url: ', too!)
 navigation:
   - name: Blog
     url: /
   - name: ¿Qué es eso?
-    url: /about
+    url: /que-es-esto
   - name: Archivo
     url: /archive
   - name: Etiquetas
@@ -33,7 +30,7 @@ footer-links:
   rss: # just type anything here for a working RSS icon
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   tumblr: # https://<username>.tumblr.com
-  twitter: jekyllrb
+  twitter:
   youtube: # channel/<your_long_string> or user/<user-name>
 
 # Text under the icons in footer
