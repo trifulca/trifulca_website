@@ -50,7 +50,7 @@ google_analytics:
 # Used for Sitemap.xml and your RSS feed
 url:
 
-baseurl: trifulca.github.io
+baseurl: https://trifulca.github.io/
 
 #
 # !! You don't need to change any of the configuration flags below !!
