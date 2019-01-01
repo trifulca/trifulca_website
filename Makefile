@@ -6,15 +6,17 @@ all:
 	@echo ""
 	@echo ""
 
+iniciar:
+	bundler install
 
-ejecutar:
-	jekyll serve --baseurl ''
+ejecutar: iniciar
+	bundler exec jekyll serve
 
-deploy_a_produccion:
+deploy_a_produccion: iniciar
 	rm -rf _site
 	rm -rf dist
 	@echo "Compilando el sitio."
-	jekyll build --baseurl ''
+	bundler exec jekyll build --baseurl ''
 	@echo "Clonando repositorio para realizar el deploy."
 	git clone dokku@trifulca.space:website dist/
 	@echo "Moviendo archivos..."

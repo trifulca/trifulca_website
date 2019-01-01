@@ -6,8 +6,8 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Instalando jekyll
-          command: gem install jekyll bundler
+          name: Instalando bundler
+          command: gem install bundler
       - run:
           name: Subiendo a dokku
           command: make deploy_a_produccion
