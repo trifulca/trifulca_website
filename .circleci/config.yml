@@ -1,0 +1,18 @@
+version: 2
+jobs:
+  compilar:
+    docker:
+      - image: starefossen/ruby-node:2-8
+    steps:
+      - checkout
+      - run:
+          name: Instalando jekyll
+          command: gem install jekyll bundler
+      - run:
+          name: Subiendo a dokku
+          command: make deploy_a_produccion
+workflows:
+  version: 2
+  compilar:
+    jobs:
+      - compilar
