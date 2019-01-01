@@ -1,18 +1,18 @@
 ---
 layout: post
-title: Soy un programador aburrido (y estoy orgulloso de eso)
+title: Soy un programador aburrido (y me enorgullece)
 tags:
   - Laboral
   - Programación
 ---
 
-> Título original: I’m a boring programmer (and proud of it)
->
-> url original: https://m.signalvnoise.com/i-m-a-boring-programmer-and-proud-of-it-d4ac3dd2defe
-
 ![1_bZmUgjuLoEfORUYrm3KC3Q](../images/1_bZmUgjuLoEfORUYrm3KC3Q.jpg)
 
 Estereotipos de programadores (si crees en esas búsquedas laborales tontas) Ilustración por [Nate Otto](https://twitter.com/nongallery).
+
+> Título original: I’m a boring programmer (and proud of it)
+>
+> url original: https://m.signalvnoise.com/i-m-a-boring-programmer-and-proud-of-it-d4ac3dd2defe
 
 Tengo que hacer una confesión - No soy una estrella de Rock. Tampoco soy un Hacker, no sé ninjutsu, y nunca nadie se refirió a mí como un mago.
 
@@ -34,7 +34,7 @@ Pero que sucede si, al igual que a mí, no te gustan en absoluto esas etiquetas 
 
 ## Los modelos de roles reales (los modelos aburridos)
 
-Lo admito, en lugar tener etiquetas para genios con el ego al máximo, que buscan riesgos emocionantes y que pueden conjurar soluciones mágicas, tengo modelos de roles mucho más modestos. Me siento más identificado con un bibliotecario, un científico, un artista y un carpintero. 
+Lo admito, en lugar tener etiquetas para genios con el ego al máximo, que buscan riesgos emocionantes y que pueden conjurar soluciones mágicas, tengo modelos de roles mucho más modestos. Me siento más identificado con un bibliotecario, un científico, un artista y un carpintero.
 
 Comparado con una estrella de rock-ninja-hacker-mago, estas etiquetas suenan un poco aburridas, ¿pero sabes qué?, no hay absolutamente nada malo con eso.
 
@@ -53,4 +53,3 @@ Apuesto que existen muchos de ustedes que han pensado lo mismo. Ves esos términ
 Para aquellos que se sientan así, les digo esto: No los escuchen, ignórenlos. Si ves una solicitud de trabajo con esas palabras, corre tan lejos como puedas. Disfruta el hecho de que no eres una estrella de rock-ninja-hacker-mago. Probablemente ya seas un gran programador haciendo un buen trabajo, solo que sin todo ese brillo y glamour innecesario.
 
 Y ya sea que lo sepas o no, todas las personas que te rodean aprecian lo bueno que eres realmente.
-
