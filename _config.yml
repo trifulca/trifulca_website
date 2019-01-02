@@ -9,6 +9,8 @@ navigation:
     url: /que-es-esto
   - name: Archivo
     url: /archive
+  - name: Foro
+    url: https://foro.trifulca.space/
 
 # Pagination
 paginate: 5
