@@ -7,11 +7,15 @@ tags:
   - Complejidad
 ---
 
+![no-silver-bullet](../images/no-silver-bullet.jpg)
+
 No hay balas de plata: Lo esencial y lo accidental en la Ingeniería del Software
 
 > by Frederick P. Brooks, Jr.
 >
 > Traducción por Espartaco Palma
+> 
+> Ilustración: No silver bullet by @bryanMMathers is licenced under CC-BY-ND
 
 De todos los monstruos que pueblan nuestras pesadillas, ninguno es tan terrorífico como el hombre lobo, porque pasa repentinamente de lo familiar al horror. Por eso, todos buscamos balas de plata que puedan acabar con ellos magicamente.
 
