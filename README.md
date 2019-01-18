@@ -1,7 +1,6 @@
-Versión online en: [trifulca.space](http://trifulca.space)
+Versión online en: [https://trifulca.space](http://trifulca.space)
 
-[![CircleCI](https://circleci.com/gh/trifulca/trifulca_website.svg?style=svg)](https://circleci.com/gh/trifulca/trifulca.github.io)
-
+[![CircleCI](https://circleci.com/gh/trifulca/trifulca_website.svg?style=svg)](https://circleci.com/gh/trifulca/trifulca_website)
 
 Para iniciar este proyecto deberías tener ruby y gem. Luego tener
 instalado bundler (que generalemente se instala con `gem install bundler`
