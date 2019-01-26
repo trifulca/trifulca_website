@@ -6,9 +6,9 @@ navigation:
   - name: Blog
     url: /
   - name: ¿Qué es esto?
-    url: /que-es-esto
+    url: /que-es-esto/
   - name: Archivo
-    url: /archive
+    url: /archive/
   - name: Foro
     url: https://foro.trifulca.space/
 
