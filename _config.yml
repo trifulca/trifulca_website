@@ -5,7 +5,7 @@ avatar: https://avatars1.githubusercontent.com/u/42070935?s=200&v=4
 navigation:
   - name: Blog
     url: /
-  - name: ¿Qué es eso?
+  - name: ¿Qué es esto?
     url: /que-es-esto
   - name: Archivo
     url: /archive
@@ -47,7 +47,7 @@ google_analytics:
 # Used for Sitemap.xml and your RSS feed
 url:
 
-baseurl: 
+baseurl:
 
 #
 # !! You don't need to change any of the configuration flags below !!
