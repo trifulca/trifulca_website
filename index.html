@@ -13,6 +13,7 @@ layout: default
         <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
       </h1>
 
+      <!--
       <div clsss="meta">
         <span class="date">
           {{ post.date | date: "%Y-%m-%d" }}
@@ -28,12 +29,15 @@ layout: default
           {% endfor %}
         </ul>
       </div>
+    -->
 
-      <div class="entry">
+      <a href="{{ site.baseurl }}{{ post.url }}">
+      <div class="entry dim">
         {{ post.excerpt }}
       </div>
+      </a>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Leer completo</a>
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more dim">Leer completo</a>
     </article>
   {% endfor %}
 </div>

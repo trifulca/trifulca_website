@@ -2,7 +2,8 @@ all:
 	@echo ""
 	@echo "Comandos a ejecutar:"
 	@echo ""
-	@echo "    ejecutar        Lanza el sitio en modo local."
+	@echo "    iniciar        Instala las dependencias."
+	@echo "    ejecutar       Lanza el sitio en modo local."
 	@echo ""
 	@echo ""
 
