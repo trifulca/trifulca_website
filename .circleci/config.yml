@@ -16,8 +16,4 @@ workflows:
   version: 2
   compilar:
     jobs:
-      - compilar:
-        filters:
-          branches:
-            only: master
-
+      - compilar
