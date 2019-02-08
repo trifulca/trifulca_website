@@ -1,6 +1,7 @@
 ---
 ---
 
+
 //
 // IMPORTS
 //
@@ -600,4 +601,8 @@ footer {
 }
 .dim:active {
   opacity: .8; transition: opacity .15s ease-out;
+}
+
+.margin-auto {
+  margin: auto !important;
 }
