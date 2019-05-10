@@ -13,7 +13,7 @@ navigation:
     url: https://foro.trifulca.space/
 
 # Pagination
-paginate: 5
+paginate: 99
 
 # Includes an icon in the footer for each username you enter
 footer-links:
