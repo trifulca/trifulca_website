@@ -19,7 +19,7 @@ deploy_a_produccion: iniciar
 	@echo "Compilando el sitio."
 	bundler exec jekyll build --baseurl ''
 	@echo "Clonando repositorio para realizar el deploy."
-	git clone dokku@trifulca.space:website dist/
+	git clone dokku@trifulca.com.ar:website dist/
 	@echo "Moviendo archivos..."
 	@cp -r _site/* dist/
 	@echo "Realizando deploy..."

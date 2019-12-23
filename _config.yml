@@ -10,7 +10,7 @@ navigation:
   - name: Archivo
     url: /archive/
   - name: Foro
-    url: https://foro.trifulca.space/
+    url: https://foro.trifulca.com.ar/
 
 # Pagination
 paginate: 99

@@ -8,7 +8,7 @@ jobs:
       - run:
           name: Instalando bundler
           command: gem install bundler
-      - run: echo -e "Host trifulca.space\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
+      - run: echo -e "Host trifulca.com.ar\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
       - run:
           name: Subiendo a dokku
           command: make deploy_a_produccion
