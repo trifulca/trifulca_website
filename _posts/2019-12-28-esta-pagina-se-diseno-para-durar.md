@@ -30,7 +30,7 @@ favoritos - sí, la lista de sitios favoritos, esa querida característica
 de los navegadores que perdió la batalla frente a la barra de direcciones
 que ahora tiene autocompletado.
 
-Aunque este actor nostálico de ordenar me llevó a la desesperación.
+Aunque este acto nostálico de ordenar me llevó a la desesperación.
 
 <!-- Bookmark after bookmark led to dead link after dead link. Vanished are
 amazing pieces of writing on kuro5hin about tech culture, and a collection of
@@ -66,8 +66,8 @@ to avoid having to renew and keep a functioning web application up year after
 year. -->
 
 Por supuesto, yo también contribuí al problema. Un paper que publiqué hace
-7 años tenía una nota que incluí un link a una demo, que fue tomada como una
-pagina de spam por un servicio. Parte de ese lapso reconozco que tuve pereza
+7 años tenía una nota donde se incluía un link a una demo, que luego fue tomada 
+como una pagina de spam por un servicio. Parte de ese lapso reconozco que tuve pereza
 de renovar y mantener funcionando la demo web año tras año.
 
 <!-- I've recommended my students to push websites to Heroku, and publish
@@ -122,7 +122,7 @@ each page links to each other? index.html.old, Copy of about.html, index.html
 (1), nav.html? -->
 
 Pero si no es así, tal vez seas un programador de sistemas embebidos o un
-directorio de tecnología en una startup o un desarrollador de Java para empresas
+director de tecnología en una startup o un desarrollador de Java para empresas
 o un estudiante de doctorado en química. Por supuesto podrías encontrar la
 forma de poner en funcionamiento un servidor web y corregir problemas de actualización
 con las herramientas, ¿pero podrías mantener esa consistencia año tras año, década
@@ -134,7 +134,7 @@ como los generadores de sitios estáticos (como Jekyll) requieren un conjunto de
 herramientas que dejarán de funcionar en cierto punto. Vas a caer en el
 infierno de las dependencias de npm, y olvidar el comando para empaquetarlo todo y
 hacer un lanzamiento. Y tener sitios con múltiples páginas es complejo; ¿cómo vas a
-a qué páginas hace referencia cada uno de los links?. ¿"index.html.old", "Copia de about.html",
+saber a qué páginas hace referencia cada uno de los links?. ¿"index.html.old", "Copia de about.html",
 "index.html (1)", "nav.html"?
 
 
@@ -144,11 +144,11 @@ disappearance of the public web in favor of mobile and web apps, walled gardens
 proportion of the web on the world wide web, which now seems more like a
 continental web than a "world wide web". -->
 
-Y Tercero, y esto ha sido ha sido mencionado por otros (e incluso refutado), la
+Y tercero, y esto ha sido ha sido mencionado por otros (e incluso [refutado](https://gomakethings.com/the-web-is-not-dying/)), la
 desaparición de la web pública en favor de la web mobile o aplicaciones web, Walled
 Gardens (Facebook pages), carga a través de websockets y AMP reducen la proporción
 de la red a nivel global, que ahora se parece más a una red continental en
-lugar de "verdaderamente global".
+lugar de una red "verdaderamente global".
 
 
 
@@ -160,7 +160,7 @@ altruistic individual rehosts the content elsewhere. -->
 Así que en base a estos problemas, ¿qué podemos hacer al respecto?. Este no
 es un problema simple que se puede resolver en este artículo. El proyecto
 The Wayback Machine y [archive.org](https://archive.org/) ayuda a mantener
-cierto contenido por más de tiempo. Y a veces alguna personas reubican
+cierto contenido por más tiempo. Y a veces alguna personas reubican
 el contenido en otros lugares.
 
 
@@ -176,7 +176,7 @@ para que pueda durar y ser mantenido por al menos 10 años?. Como alguien
 que estudia la interacción entre humanos y máquinas, naturalmente creo que las
 partes interesadas no somos secundarias. Actualmente, poner contenido en la
 web está optimizada tanto para los desarrolladores profesionales (que usan los
-últimos frameworks y herramientas) o para los usuarios no expertos en tecnología
+últimos frameworks y herramientas) como para los usuarios no expertos en tecnología
 (que usan una plataforma).
 
 <!-- But I think we should consider both 1) the casual web content
@@ -220,7 +220,7 @@ the CSS attributes that work across all browsers. And frequently validate your
 HTML; it could save you a headache in the future when you encounter a bug. -->
 
 1 - Volver a HTML y CSS tradicional. Creo que alcanzamos un punto en donde
-html y css es mas poderoso y agradable de utilizar que nunca antes. En lugar
+html y css es mas poderoso y agradable de utilizar que nunca. En lugar
 de empezar con una plantilla gigante inyectada con varios archivos .js, está
 bien solo escribir HTML plano y desde cero otra vez. Características de CSS
 como Flexbox y Grid, canvas, selectores, box-shadow, el tag Video, filter etc.
@@ -245,16 +245,16 @@ cool and learning by seeing what they did. Minimizing HTML does not preserve
 its educational quality, and what gets archived is only the resulting codejunk.
 -->
 
-2 - No minimizar ese HTML - Minimizar, o comprimir, tu HTML y todos los archivos
+2 - No minimizar ese HTML - Minimizar o comprimir tu HTML y todos los archivos
 CSS y Javascript asociados parece que ahorra mucho ancho de banda preciado
 por todas las grandes compañías que lo hacen. ¿Por qué no?, Bueno, no vas a
-ganar mucho porque tus páginas web deber estar siendo 'gzippeadas' por el
+ganar mucho porque tus páginas web deben estar siendo 'gzippeadas' por el
 webserver antes de ser enviadas por la red, así que achicar tu contenido
 preventivamente probablemente no contribuya a reducir el ancho de banda
 en absoluto. Pero incluso si eso ahorra unos pocos bytes (que es texto después
 de todo), vas a necesitar tener un proceso de compilación y agregarlo a tus
 herramientas, así que actualizar el sitio web se vuelve más complejo. Y es
-como amistoso con tus usuarios también, cuantas personas dieron sus primeros
+poco amistoso con tus usuarios también, muchas personas dieron sus primeros
 pasos con HTML pulsando la opción "Ver código fuente", y minimizar tu
 HTML prohibe completamente esta idea apasionante de ver algo cool y aprenderlo
 mirando cómo se hizo. Minimizar HTML no preserva su calidad educacional, y lo
@@ -276,12 +276,12 @@ nice side effect is then you can access an older version of the file if you
 remember the date, without logging into the web host. -->
 
 3 - Preferir una página en lugar de muchas - Muchas páginas es más difícil
-de mantener. Podes perder el control de qué página a punta a cual, y también
+de mantener. Podes perder el control de qué página apunta a cual, y también
 conduce a algún sistema de plantillas para reducir la repetición.  ¿Cuantas
 páginas realmente puede mantener una sola persona? Teniendo un solo archivo,
 probablemente "index.html", es más simple e imposible de olvidar. Has uso
 de ese scroll que no se termina. No vas a tener que escarbar entre los
-archivos o usar grep para ver dónde está el contenido. ¿Y cómo debería
+archivos para ver dónde está el contenido. ¿Y cómo debería
 poner en un control de versiones ese archivo?, ¿debería usar git?, ¿Meterlo
 en una carpeta "old/"?. A mí me gusta un enfoque simple que consiste en nombrar
 a los archivos con la fecha en la que fueron retirados, como index.20191213.html.
@@ -291,7 +291,7 @@ o Europeos. Si tienes múltiples versiones de un archivo en un día, podrías
 usar un estilo similar al que se utiliza frecuentemente en los archivos de log, como
 index.20191212.1.html. Un lindo efecto colateral es que vas a poder acceder las
 versiones anteriores de un archivo si recuedas la fecha, sin siquiera ingresar
-en el host a ver el listado de archivo.
+en el host a ver el listado de archivos.
 
 <!-- End all forms of hotlinking – this cautionary word seems to have
 disappeared from internet vocabulary, but it's one of the reasons I've seen a
@@ -314,11 +314,11 @@ sitios perfectamente buenos desmoronarse sin ninguna razón aparente. Deja de in
 imágenes desde otros sitios web, deja de "tomar prestadas" las hojas de estilo
 solamente poniendo un link a ellas, y especialmente deja de poner links a archivos
 JavaScript externos, incluso aquellos que son alojados por los mismos desarrolladores
-originales. Hotlinking generalmente se considera algo rudo ya que tus visitantes
+originales. Hotlinking [generalmente se considera algo rudo](https://webmasters.stackexchange.com/questions/25315/hotlinking-what-is-it-and-why-shouldnt-people-do-it) ya que tus visitantes
 usarán el ancho de banda de alguien más, hace la experiencia del usuario más lenta,
-estarás dejando que el otro sitio web rastree a tus visitantes, y lo peor de todo
+estarás dejando que el otro sitio web rastree a tus visitantes, y lo peor de todo:
 si la locación del archivo que estás solicitado cambia de ubicación o simplemente
-pasa a esta offline, entonces la cascada de errores llegará a tu sitio web también.
+pasa a estar offline, entonces la cascada de errores llegará a tu sitio web también.
 Google Analitics es innecesario; almacena tus propios logs y configura GoAccess o
 léelos como quieras. No les regales tus registros de logs a Google.
 
@@ -390,7 +390,7 @@ longer, even 30 years), so a lot of services will shut down during this period,
 so two monitoring services is the safer way. -->
 
 
-7 - Elimina el riesgo de la URL - Hay servicios de monitoreo que te avisarán
+7 - Elimina el riesgo de una URL caída - Hay servicios de monitoreo que te avisarán
 cuando tu URL se caiga, evitando que te des cuenta un día que tu sitio web
 estuvo caído un mes y los buscadores te han quitado de sus resultados de búsqueda
 a causa de esa caída. Porque 10 años es mucho más tiempo del que los discos duros
@@ -411,7 +411,7 @@ means. The words promise that the maintainer will do their best to follow the
 ideas in this manifesto. -->
 
 Después de hacer estas cosas, pon un poco de texto en el pie de página: "Esta
-´pagina fue diseñada para durar", con un link a esta página explicando qué
+página fue diseñada para durar", con un link a esta página explicando qué
 significa. Estas palabras prometen que el mantenedor hace su mejor esfuerzo
 para seguir las ideas en este manifiesto.
 
@@ -425,12 +425,12 @@ It's also not for websites maintained by an organization like Wikipedia or
 Twitter. You do your thing, and the salary for an IT team is probably enough to
 keep something alive for a while. -->
 
-Antes de protestar, esto obviamente no es para aplicaciones web. Si estás
-haciendo una aplicación, hace tu web o aplicación mobile siguiente el flujo
+Y antes de que objetes, esto obviamente no es para aplicaciones web. Si estás
+haciendo una aplicación, hace tu web o aplicación mobile siguiendo el flujo
 de trabajo que necesites. Ni siquiera conozco alguna aplicación web que se
 mantenga funcionando de forma similar por más de 10 años (excepto el tutor
-de pytohn de Philip Guo, a traves de su
-[estrategia minimalista para mantenerla](http://www.pgbovine.net/python-tutor-ten-years.htm)
+de python de Philip Guo, a través de su
+[estratégia minimalista para mantenerla](http://www.pgbovine.net/python-tutor-ten-years.htm)
 así que esta guía no intenta abarcar aplicaciones. Tampoco es para sitios web
 mantenidos por una organización como Wikipedia o Twitter. Cada uno con sus
 cosas, y el salario de un equipo de IT es probablemente suficiente para
