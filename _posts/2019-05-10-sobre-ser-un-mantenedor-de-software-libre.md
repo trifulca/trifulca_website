@@ -3,7 +3,6 @@ layout: post
 title: Sobre ser un mantenedor de Software Libre
 tags:
   - Software Libre
-  -
 ---
 
 ![](../images/ansiedad.jpg)
